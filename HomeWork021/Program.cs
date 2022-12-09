@@ -5,7 +5,7 @@ void FillMatrix(int[,] matrix)                              // Заполнен�
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(-100, 101);
+            matrix[i, j] = new Random().Next(10);
         }
     }
 }
