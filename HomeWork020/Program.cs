@@ -6,7 +6,7 @@ void FillMatrix(double[,] matrix)                              // Заполне
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = Convert.ToDouble(new Random().Next(-100, 101));
+            matrix[i, j] = Convert.ToDouble(new Random().Next(-100, 100)/10.0);
         }
     }
 }
